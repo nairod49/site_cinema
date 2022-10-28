@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+.titre{
+    color: aliceblue;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input[type=text]{
+    width: 245px;
+    height: 25px;
+    border: 2px solid ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  
+    text-align: center;
+}
+
+input[type=submit]{
+    width: 250px;
+    height: 28px;
+    border: 2px solid ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;  
+    text-align: center;
+    margin-top: 5px;
+    background-color: grey;
+    font-weight: bold;
+}
+
+.case_film{
+    text-align: center;
+    border: 1px solid beige;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+}
+
+.titre_film{
+    color:aliceblue;
+    font-size: 24px;
+}
+
+.resume{
+    color:antiquewhite;
+    width: 250px;
+    height: 50px;
+    font-size: 9px;
+}
+
+.film{
+    display: grid;
+    justify-items: center;
+}
